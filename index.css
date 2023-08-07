@@ -1,0 +1,209 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.heading-content {
+    z-index: 1100;
+    height: 3rem;
+    background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.logo {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.navbar ul {
+    display: flex;
+    margin-right: 2rem;
+}
+.navbar ul li {
+    list-style-type: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5rem;
+    background-color: #ecebeb;
+
+}
+.container .head {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:1rem;
+    color: rgb(42, 209, 42);
+    font-size: 2rem;
+}
+.container .box-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 0fr));
+    gap: 1.5rem;
+}
+.container .box-container .box {
+    padding: .1rem;
+    background:#fff;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: rgba(0,0,0,.8);
+}
+.icons ul li a i {
+    color: white;
+    margin: 5px;
+    display: none;
+}
+.whatsapp i{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    color: rgb(65, 202, 65);
+    font-size: 5rem;
+    position: fixed;
+}
+
+.whatsapp {
+    text-decoration: none;
+    position: absolute;
+    top: 32%;
+    right: 2%;
+    color: rgb(65, 202, 65);
+    font-size: 1rem;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:571px) {
+    .icons ul li a i {
+        color: white;
+        margin: 5px;
+        display: block;
+    }
+    
+}
+
+
+@media (max-width:571px) {
+    .navbar {
+        display: none;
+    }
+
+}
+@media (max-width:505px) {
+    .container .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(15px, 1fr));
+        
+    }
+}
+
+/* @media (max-width:600px) {
+    .navbar ul {
+        display: inline-block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1004;
+        background: yellow;
+        width: 100%;
+        height: auto;
+        
+    }
+    .navbar ul li {
+        padding: 10px;
+    }
+    .navbar ul li a {
+        color: black;
+
+    }
+    
+} */
+
+@media (max-width:480px) {
+    .container .box-container {
+        
+        display: grid;
+        grid-template-columns: repeat(1, minmax(5px, 1fr));
+    }
+    
+
+}
+
